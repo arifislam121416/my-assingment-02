@@ -48,3 +48,10 @@ background:linear-gradient(90deg,rgb(232, 214, 17),rgba(251, 9, 180, 1),rgba(145
    width: 10px;
    height: 10px;
 }
+.hero-container{
+    border:1px solid red;
+    display: grid;
+}
+.microphone-section{
+    
+}

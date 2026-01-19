@@ -42,16 +42,36 @@ background:linear-gradient(90deg,rgb(232, 214, 17),rgba(251, 9, 180, 1),rgba(145
 background:linear-gradient(90deg,rgb(232, 214, 17),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1),rgb(155, 149, 149));
 }
 .arrow-icon{
-    margin-top: 16px;
+    color: antiquewhite;
+    background: none;
+    margin-top: 17px;
   right: 4px;
     position: absolute;
    width: 10px;
    height: 10px;
 }
-.hero-container{
-    border:1px solid red;
-    display: grid;
+.hero-parent{
+    display:flex;
+    position: relative;
+background-size:contain;
+    background-image: url("./assets/hero-bg.png");
+    height: 760px;
+max-width: 1600px;
 }
-.microphone-section{
-    
+.img1{
+    border-radius: 50%;
+    margin-top: 100px;
+    width: 270px;
+    height: 270px;
+  margin-left:496px;
+position: absolute;
+}
+.img2{
+    padding: 8px 42px 16px 42px;
+  background: none;
+    margin-top: 135px;
+    margin-left:537px;
+    position: absolute;
+    width: 100px;
+    height: 160px;
 }

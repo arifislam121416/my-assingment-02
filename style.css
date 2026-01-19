@@ -164,3 +164,18 @@ background:linear-gradient(90deg,rgb(232, 214, 17),rgba(251, 9, 180, 1),rgba(145
     color: rgb(7, 241, 58);
     transform:translateY(-4px);
 }
+/* podcast-section */
+.podcast-section{
+    margin-top: 10px;
+   background: rgba(26, 11, 46, 1);
+    text-align: center;
+    width: 1200px;
+    max-height: 220px;
+}
+.podcast-section>p{
+    line-height: 20px;
+    font-size: 15px;
+}
+.podcast-lp{
+    margin-top: 20px;
+}
